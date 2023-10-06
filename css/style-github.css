@@ -1,0 +1,143 @@
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Estilo do título da página principal */
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Estilo dos links do menu */
+nav ul li a:hover {
+    color: #ff4500; /* Cor ao passar o mouse sobre os links */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo da seção principal */
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das imagens na seção principal */
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Estilo dos títulos das seções */
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo do texto da seção */
+section p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Estilo da tabela de preços */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilo das células da tabela */
+td {
+    padding: 10px;
+}
+
+/* Estilo dos botões */
+.button {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e03300;
+}
+
+/* Estilo do corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Preenche a altura da janela */
+}
+
+/* Estilo da seção principal da Página Principal */
+section {
+    flex-grow: 1; /* Cresce para preencher o espaço restante */
+}
+
+/* Estilize a classe "centralizado" para centralizar o texto horizontalmente */
+.centralizado {
+    text-align: center;
+}
+
+/* Estilize outras partes do seu conteúdo aqui, se necessário */
+.conteudo {
+    /* Outros estilos para o contêiner de conteúdo */
+}
